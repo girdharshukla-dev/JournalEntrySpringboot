@@ -50,7 +50,7 @@ Request body:
   "content": "This is my first entry!"
 }
 
-PUT "/id/{username}/{id}": Update an existing journal entry.
+PUT "/journal/id/{username}/{id}": Update an existing journal entry.
 
 Request body:
 {
