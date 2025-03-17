@@ -31,8 +31,8 @@ mvn spring-boot:run
 
 5. API Endpoints
 
-
 POST "/user": Register a new user.
+
 Request body:
 {
   "username": "user1",
@@ -43,6 +43,7 @@ Request body:
 GET "/journal/{username}": Retrieve all journal entries for a specific user.
 
 POST "/journal/{username}": Create a new journal entry.
+
 Request body:
 {
   "title": "My First Journal Entry",
@@ -50,6 +51,7 @@ Request body:
 }
 
 PUT "/id/{username}/{id}": Update an existing journal entry.
+
 Request body:
 {
   "title": "Updated Title",
